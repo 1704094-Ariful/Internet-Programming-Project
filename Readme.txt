@@ -1,0 +1,1 @@
+Push this project to C:\xampp\htdocs   and then open with local server

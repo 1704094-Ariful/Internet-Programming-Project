@@ -1,0 +1,110 @@
+.cont{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	margin:0;
+	width: 100%;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background: #4A8AF4;
+	text-align:center;
+}
+.header h1,h4,h6{
+	transform: translate(-70px);
+}
+.header h1{
+	font-size: 35px;
+	font-weight: bold;
+	margin-top: 15px;`
+}
+.header h4{
+	font-size: 30px;
+	margin-top: 15px;`
+}
+.header h6{
+	font-size: 20px;
+	margin-top: 15px;`
+}
+.header img{
+	float: left;
+}/*
+.sidenav 
+{
+	margin: 20px;
+	padding: 15px;
+	background-color: #111;
+	list-style: none;
+	transform: translate(-54px,0);
+	
+}
+.sidenav a{
+	padding: 10px;
+	font-size: 25px;
+	color: #818181;
+	width: 100%;
+	display:block;
+}
+.sidenav a i{
+	padding-right: 20px;
+}
+.sidenav a:hover {
+  background: #f1f1f1;
+  text-decoration: none;
+}*/
+.info{
+	margin-left: -10px;
+}
+
+#information
+{
+  /* Remove default list styling */
+	list-style: none;
+	margin-right: 35px;
+	margin-top: 20px;
+	transform: translate(-54px,0);
+}
+#information li{
+	width: 100%;
+	padding-left: -10px;
+	border: 1px solid #ddd; /* Add a border to all links */
+	margin-top: -1px; /* Prevent double borders */
+	background-color: #f6f6f6; /* Grey background color */
+	padding: 12px; /* Add some padding */
+	text-decoration: none; /* Remove default text underline */
+	font-size: 18px; /* Increase the font-size */
+	color: black; /* Add a black text color */ 
+	display: block;/* Make it into a block element to fill the whole list */
+}
+
+#information li img{
+	margin: 0 auto;
+	background: #dddddd;
+	height: 250px;
+	width:  250px;
+	display: block;
+}
+#information li p{
+	
+	display: block;
+	margin-top: 10px;
+	margin-left: 100px;
+	background-color: red;
+}
+#information li:hover:not(.header){
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+
+#div_pagination{
+    width:100%;
+    margin-top:5px;
+    text-align:center;
+}
+.button{
+    border-radius:3px;
+    border:0px;
+    background-color:mediumpurple;
+    color:white;
+    padding:10px 20px;
+    letter-spacing: 1px;
+}

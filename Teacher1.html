@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>teacher1</title>
+	<link rel="stylesheet" href="teacher1.css"/>
+	<!--For Bootstrap-->
+	<link rel="stylesheet" href="file:///F:/Web%20Design/Project/fontawesome-free-5.12.1-web/css/all.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="cont container">
+		<div class="header row">
+			<img src="Logo_pic.png" class="img-circle" width="250px" height="200px" alt="Logo"/>
+			<h1>Admjee Cantonment Public School and College</h1>
+			<h4>Education | Discipline | Character</h4>
+			<h6>Dhaka Cantonment, Dhaka-1206, Bangladesh.</h6>
+		</div>
+		<div class="info row col-lg-8">
+			<ul id="information">
+				<li>
+					<img src="img.jpg" class="img-circle" alt="image"/>
+						<p>ID: <?php echo $id;?></p> 
+						<p>Name: <?php echo $name;?></p> 
+						<p>Department: <?php echo $dept; ?></p> 
+				</li>
+			</ul>
+			<form method="post" action="">
+            <div id="div_pagination">
+                <input type="hidden" name="row" value="<?php echo $row; ?>" >
+                <input type="hidden" name="allcount" value="<?php echo $allcount; ?>">
+                <input type="submit" class="button" id="but_prev" name="but_prev" value="Previous">
+                <input type="submit" class="button" id="but_next" name="but_next" value="Next">
+            </div>
+        </form>
+		</div>
+		
+		<!--
+		<div class="sidenav row col-lg-4">
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Bangla</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>English</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Mathmatics</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Social Science</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>(Religion) Islam</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Science</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Biology</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Physics</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Chemistry</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Computer Teacher</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Agricultural Studies</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Physical Education</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Bussiness Studies</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Music</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Drawing</a>
+			<a href="#"><i class="fas fa-chalkboard-teacher"></i>Deputation</a>
+		</div>-->
+	</div>
+</body>
+</html>
