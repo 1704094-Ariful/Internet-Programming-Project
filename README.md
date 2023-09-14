@@ -1,1 +1,1 @@
-# Internet-Programming-Project
+# Online School Management System
